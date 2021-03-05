@@ -1,0 +1,40 @@
+{
+    "name": "mabasic/phel-blank-template",
+    "description": "Getting started blank template for Phel lang.",
+    "license": "MIT",
+    "keywords": [
+        "phel",
+        "project",
+        "template"
+    ],
+    "authors": [
+        {
+            "name": "Mario Bašić",
+            "email": "mario@laravelista.hr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "phel-lang/phel-lang": "^0.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "extra": {
+        "phel": {
+            "loader": {
+                "app\\": "src/"
+            },
+            "loader-dev": {
+                "app\\tests\\": "tests/"
+            },
+            "tests": [
+                "tests/"
+            ]
+        }
+    }
+}
