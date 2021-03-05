@@ -1,6 +1,6 @@
 {
-    "name": "mabasic/phel-blank-template",
-    "description": "Getting started blank template for Phel lang.",
+    "name": "mabasic/phel-web",
+    "description": "Getting started Web template for Phel lang.",
     "license": "MIT",
     "keywords": [
         "phel",
