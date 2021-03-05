@@ -15,7 +15,7 @@ composer create-project mabasic/phel-web example-app dev-main
 
 cd example-app
 
-php -S localhost:8000 ./public/index.php
+php -S localhost:8000 -t ./public/
 ```
 
 When you open the website on `http://localhost:8000` the output will be:
