@@ -11,7 +11,7 @@ This template creates a namespace called `app` for storing your application logi
 If your computer already has PHP and Composer installed, you may create a new Phel project by using Composer directly. After the application has been created, you may start the Phel application using the Phel CLI's `run` command:
 
 ```bash
-composer create-project mabasic/phel-web example-app dev-master
+composer create-project mabasic/phel-web example-app dev-main
 
 cd example-app
 
