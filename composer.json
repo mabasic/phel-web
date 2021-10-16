@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4|^8.0",
-        "phel-lang/phel-lang": "^0.2"
+        "phel-lang/phel-lang": "^0.4"
     },
     "config": {
         "optimize-autoloader": true,
@@ -24,17 +24,11 @@
         "sort-packages": true
     },
     "prefer-stable": true,
-    "extra": {
-        "phel": {
-            "loader": {
-                "app\\": "src/"
-            },
-            "loader-dev": {
-                "app\\tests\\": "tests/"
-            },
-            "tests": [
-                "tests/"
-            ]
-        }
+    "scripts": {
+        "repl": "vendor/bin/phel repl",
+        "test": "vendor/bin/phel test",
+        "format": "vendor/bin/phel format",
+        "start": "vendor/bin/phel run",
+        "dev": "php -S localhost:8000 -t ./public/"
     }
 }
