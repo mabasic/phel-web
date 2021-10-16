@@ -24,6 +24,15 @@ When you open the website on `http://localhost:8000` the output will be:
 Hello, Phel!
 ```
 
+## Shortcuts
+
+- `composer dev` - Starts the PHP development server.
+- `composer repl` - Starts the Phel REPL.
+- `composer test` - Runs the test suite.
+- `composer format {directory}` - Formats the given directory.
+- `composer start {script}` - Executes the given script.
+
+
 ## Next Steps
 
 From here you can learn more about using Phel from the [official website](https://phel-lang.org/), or view the [source code repository](https://github.com/phel-lang/phel-lang) and contribute to the development of the language and its ecosystem.
